@@ -173,39 +173,43 @@ Cara kedua adalah dengan menggunakan layanan yang tersedia pada *web-hosting pro
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
 
-Cara pemakaian **CMS Prestashop** ini sangat mudah, karena aplikasi ini telah menyediakan *interface* yang mudah dimengerti. Berikut untuk lebih jelasnya :
-1. Ini merupakan tampilan awal saat kita membuka Socialhome.
+Cara pemakaian **HTMLy** ini sangat mudah, karena aplikasi ini telah menyediakan *interface* yang mudah dimengerti. Berikut untuk lebih jelasnya :
+1. Ketika proses penginstalan selesai, maka akan muncul halaman seperti dibawah, isikan data diri berikut akun-akun social media yang kita miliki.
 
-    <h1 align="center"><img src="https://i.ibb.co/kBbBf83/halamanawal.png" alt="halamanawal" border="0"></h1>
+    <h1 align="center"><img src="https://i.ibb.co/7GcX8ZL/Capture.png" alt="Capture" border="0"></h1>
 
 
-2. Pertama-tama kita Sign in terlebih dahulu, 
+2. Setelah itu kita akan otomatis masuk ke halaman HTMLy milik kita, dan kita bisa membuat post untuk pertama kali dan mempublishnya, 
 
-   <h1 align="center"><img src="https://i.ibb.co/sVScKpf/signin.png" alt="signin" border="0"></h1>
+   <h1 align="center"><img src="https://i.ibb.co/LtHp8Qw/hhhh.png" alt="hhhh" border="0"></h1>
+   <h1 align="center"><img src="https://i.ibb.co/Fmq1BdF/heuehu.png" alt="heuehu" border="0"></h1>
 
-3. Setelah Sign in, ada banyak bisa kita lakukan, tentunya  kita bisa meng-create suatu post
-    <h1 align="center"><img src="https://i.ibb.co/zhHhTnp/Create.png" alt="Create" border="0"></h1>
+3. Terdapat beberapa menu di tab bagian atas, yang pertama yaitu menu Admin, pada saat diklik akan ada tampilan berisi post yang pernah kita publish, kita bisa mengedit ataupun menghapusnya
+   kita juga bisa melihat statistiknya
+    <h1 align="center"><img src="https://i.ibb.co/pQzzynX/static.png" alt="static" border="0"></h1>
     
-4. Kita juga dapat melihat profil kita sendiri, dan pada profil ini, akan ditampilkan juga postingan tadi,
-    <h1 align="center"><img src="https://i.ibb.co/kxqLG4R/profilsetelahcreate.png" alt="profilsetelahcreate" border="0"></h1>
-   Pada menu profil kita bisa juga merubah profile picture ataupun merubah username kita ,
-   <h1 align="center"><img src="https://i.ibb.co/sHWNZ3K/changepicture.png" alt="changepicture" border="0"></h1>
-   <h1 align="center"><img src="https://i.ibb.co/LS41M82/changebb.png" alt="changebb" border="0"></h1>
-   <h1 align="center"><img src="https://i.ibb.co/FHqzj3V/dahgnti.png" alt="dahgnti" border="0"></h1>
-   <h1 align="center"><img src="https://i.ibb.co/7r7ZdQL/gantiprofil.png" alt="gantiprofil" border="0"></h1>
+4. Terdapat pula menu Posts yang berisi list postingan yang ada, dapat diedit ataupun dihapus
+    <h1 align="center"><img src="https://i.ibb.co/568trf7/posst.png" alt="posst" border="0"></h1>
+   
+5. Kemudian terdapat pula menu Add Content, disinilah kita bisa menambhkan konten yang akan kita post, bisa berbentuk regular, atau yang memiliki fitur gambar, video, dan sebagainya
 
-5. Juga terdapat fitur search, dimana kita dapan mencari akun-akun milik orang lain yang mungkin akan kita ikuti, atau kita tambahkan sebagai orang yang diikuti
+     <h1 align="center"><img src="https://i.ibb.co/8x3gWSd/add-content.png" alt="add-content" border="0"></h1>
 
-     <h1 align="center"><img src="https://i.ibb.co/8mFLTH2/search.png" alt="search" border="0"></h1>
+6. Terdapat juga menu categories, dimana akan ditampilkan list kategori yang ada, dan kita juga bisa menambahkan kategori sesuai keinginan kita
 
-6. Kemudian, kita juga dapat mengklik menu setting, dan salah satunya kita bisa membuka Account. pada Account ini salah satu yang dapat kita lakukan adalah mengatur halaman apa yang kita inginkan muncul pada saat pertama kali masuk.
-
-<h1 align="center"><img src="https://i.ibb.co/vYhn5sQ/account.png" alt="account" border="0"></h1>
+<h1 align="center"><img src="https://i.ibb.co/fqMQNdD/categories.png" alt="categories" border="0"></h1>
         
-7. Terdapat juga tab bernama Streams, disini terdapat pilihan content apa yang ingin kita lihat, mislnya content public atau local, seperti dibawah ini,
+7. Kita juga bisa mengedit profile kita pada menu Edit Profile
 
-    <h1 align="center"><img src="https://i.ibb.co/k8Svdhr/streams-local.png" alt="streams-local" border="0"></h1>
-    <h1 align="center"><img src="https://i.ibb.co/G5TBBVB/streams-public.png" alt="streams-public" border="0"></h1>
+    <h1 align="center"><img src="https://i.ibb.co/QJMNvVX/editprofil.png" alt="editprofil" border="0"></h1>
+
+8. Tersedia pula menu Backup , 
+
+    <h1 align="center"><img src="https://i.ibb.co/gzRZGW9/backup.png" alt="backup" border="0"></h1>
+
+9. Kemudian beginilah tampilan Home     
+    
+    <h1 align="center"><img src="https://i.ibb.co/G3CmVzR/home.png" alt="home" border="0"></h1>
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
