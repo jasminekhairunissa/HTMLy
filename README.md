@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://i.ibb.co/hK251gp/Socialhome-dark-600.png" alt="Socialhome-dark-600" border="0"></h1>
+<h1 align="center"><img src="https://i.ibb.co/WWSp7ZQ/logo-big.png" alt="logo-big" border="0"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
@@ -8,7 +8,7 @@
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
-**Socialhome** adalah kumpulan profil personal dengan fungsi jejaring sosial. Pengguna dapat membuat konten menggunakan *Markdown* dan HTML/CSS/JS jika sudah terdaftar sebagai *trusted user*. Saat ini Socialhome menggunakan <a href = "https://diaspora.github.io/diaspora_federation/">protokol Diaspora</a>, sehingga pengguna dapat berinteraksi satu sama lain.
+**HTMLy** adalah sebuah Content Management System (CMS) berbentuk platform *blogging* yang dibangun menggunakan PHP, mengutamakan kecepatan dan kesederhanaan. **HTMLy** memiliki banyak keunggulan, diantaranya adalah: tidak memerlukan database, menyediakan dukungan *markdown* WYSIWYG, hingga CSS yang fleksibel. Untuk keterangan lebih lanjut, dapat dilihat di <a href="https://www.htmly.com/">laman utama HTMLy</a>.
 
 
 # Instalasi
@@ -16,126 +16,101 @@
 
 #### Kebutuhan Sistem :
 - Unix, Linux atau Windows.
-- uWSGI (~200mb)
-- Channels worker (~85mb)
-- Daphne (~60mb)
-- Circus (~25mb)
-- 5x RQ workers (~75mb each == 375mb)
-- RQ scheduler (~75mb)
-- Database sesuai dengan kebutuhan pengguna (100K content -> aprox. 230MB)
+- Apache 2
+- PHP 7.2
 
 #### Proses Instalasi :
-1. Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
+1. Install Apache2 ke dalam server Ubuntu.
     ```
-    $ ssh adam@172.18.88.88 -p 22
-    ```
-
-2. Pastikan seluruh paket sistem kita *up-to-date*, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
-    ```
-    $ sudo apt-get update
-    $ sudo apt-get install apache2
-    $ sudo apt-get install mysql-server
-    $ sudo apt-get install php
-    $ sudo apt-get install libapache2-mod-php
-    $ sudo apt-get install php-mysql
-    $ sudo apt-get install php-gd php-mcrypt php-mbstring php-xml php-ssh2 php-curl php-zip php-intl
-    $ sudo apt-get install unzip
+    $ sudo apt update
+    $ sudo apt install apache2
     ```
 
-3. Unduh **Prestashop** ke dalam direktori kita. 
+2. Install PHP7.2.
     ```
-    $ wget https://download.prestashop.com/download/releases/prestashop_1.7.0.5.zip
-    ```
-
-4. Ekstrak file yang telah diunduh ke dalam direktori yang kita inginkan.
-    ```
-    $ sudo unzip prestashop_1.7.0.5.zip -d /var/www/html/prestashop
+    $ sudo apt-get install software-properties-common
+    $ sudo add-apt-repository ppa:ondrej/php
+    $ sudo apt update
+    $ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2 cli php7.2-curl php7.2-zip
     ```
 
-5. Ubah otorisasi kepemilikan ke user www-data (webserver)
+3. Buka file **config** dari Apache 2. 
     ```
-    $ sudo chown -R www-data:www-data /var/www/html/prestashop
-    ```
-
-6. Buat database dan user untuk **Prestashop**.
-    ```
-    $ mysql -u root -p -v -e "
-        CREATE DATABASE prestashop;
-        CREATE USER 'prestashopuser'@'localhost' IDENTIFIED BY 'prestashoppassword';
-        GRANT ALL PRIVILEGES ON `prestashop`.* TO 'prestashopuser'@'localhost';
-        FLUSH PRIVILEGES;"
+    $ sudo nano /etc/php/7.2/apache2/php.ini
     ```
 
-7. Konfigurasi Apache web server.
+4. Ubah isi file **php.ini** sesuai dengan baris berikut:
     ```
-    $ sudo a2enmod rewrite
-    $ sudo touch /etc/apache2/sites-available/prestashop.conf
-    $ sudo ln -s /etc/apache2/sites-available/prestashop.conf /etc/apache2/sites-enabled/prestashop.conf
-    $ sudo nano /etc/apache2/sites-available/prestashop.conf
-
-    <VirtualHost *:80>
-    ServerAdmin admin@your-domain.com
-    DocumentRoot /var/www/html/prestashop/
-    ServerName your-domain.com
-    ServerAlias www.your-domain.com
-    <Directory /var/www/html/prestashop/>
-    Options FollowSymLinks
-    AllowOverride All
-    Order allow,deny
-    allow from all
-    </Directory>
-    ErrorLog /var/log/apache2/your-domain.com-error_log
-    CustomLog /var/log/apache2/your-domain.com-access_log common
-    </VirtualHost>
-    ```
-
-8. Edit file `etc/php/7.0/apache2/php.ini` dan tambahkan baris berikut :
-    ```
-    memory_limit = 128M
-    upload_max_filesize = 16M
-    max_execution_time = 60
     file_uploads = On
     allow_url_fopen = On
-    magic_quotes_gpc = Off
-    register_globals = Off
+    memory_limit = 256M
+    upload_max_filesize = 100M
+    max_execution_time = 360
+    date.timezone = America/Chicago
     ```
 
-9. Restart kembali Apache web server.
+5. Restart Apache 2.
     ```
-    $ sudo service apache2 restart
-    ```
-
-10. Kunjungi alamat IP web server kita untuk meneruskan instalasi.
-    - Pilih Bahasa yang akan digunakan
-
-      ![1](https://4.bp.blogspot.com/-4Bd2ScecDIs/WNfZ0H8j3UI/AAAAAAAAGjE/9f7Knlqzgw0a0Lgd2AVQ7Qt53bI-Of8bACLcB/s1600/36.PNG)
-
-    - Setujui persyaratan yang berlaku
-
-      ![2](https://4.bp.blogspot.com/-mglU1XDt-T0/WNfZ0OJ7n8I/AAAAAAAAGjI/bG23YpPUkyEOCiozy1_Qc4TnA29bJw0lACLcB/s1600/37.PNG)
-
-    - Cek kecocokan sistem
-
-      ![3](https://3.bp.blogspot.com/-ewzlTX1qtmw/WNfZ0HTeFuI/AAAAAAAAGjM/edNiBt1f24Qt4x4sWCoCHfyo7JXWWmoZwCLcB/s1600/38.PNG)
-
-    - Isi informasi tentang toko yang kita buat
-
-      ![4](https://2.bp.blogspot.com/-Q5cCz5hyubQ/WNfZ1FZod9I/AAAAAAAAGjU/H_uUfxtZLUE11VPDafwK8jR3-aealPKcgCLcB/s1600/39.png)
-
-    - Konfigurasi database
-
-      ![5](https://1.bp.blogspot.com/-rh08nNV2Leg/WNfZ1DAaDOI/AAAAAAAAGjY/R5oIKIMI4rYjg7gO71MgR26JSMahxtpxgCLcB/s1600/40.PNG)
-
-    - Lanjutkan proses instalasi
-
-      ![6](https://3.bp.blogspot.com/-t2MrsQBYXBU/WNfZ0x4YoWI/AAAAAAAAGjQ/zOqZVNSFIpQkQjY0awofbetdEowQLdGAwCLcB/s1600/41.PNG)
-
-11. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
-    ```
-    $ sudo rm -rf /var/www/html/prestashop/install
+    $ sudo systemctl restart apache2.service
     ```
 
+6. Cek apakah Apache sudah bekerja atau belum dengan membuat file **phpinfo.php**.
+    ```
+    $ sudo nano /var/www/html/phpinfo.php
+    
+    ```
 
+7. Isi file **phpinfo.php** dengan:
+    ```
+    <?php phpinfo( ); ?>
+    ```
+
+8. Buka http://localhost/phpinfo.php, jika Apache bekerja, maka akan muncul tampilan sebagai berikut:
+   <img src="https://i.ibb.co/QjxHKHC/php-ubuntu-test-nginx.png" alt="php-ubuntu-test-nginx" border="0"></img>
+   
+9. Unduh packages HTMLy dari GitHub.
+    ```
+    $ sudo mkdir -p /var/www/html/htmly
+    $ cd /var/www/html/htmly
+    $ sudo wget https://github.com/danpros/htmly/releases/download/v2.7.4/installer.php
+    
+    $ sudo chown -R www-data:www-data /var/www/html/htmly/
+    $ sudo chmod -R 755 /var/www/html/htmly/
+    ```
+
+10. Untuk konfigurasi buat file dengan nama **htmly.conf**
+    ```
+    $ sudo nano /etc/apache2/sites-available/htmly.conf
+    ```
+
+11. Isi file tersebut dengan:
+    ```
+    <VirtualHost *:80>
+     ServerAdmin admin@example.com
+     DocumentRoot /var/www/html/htmly/
+     ServerName example.com
+     ServerAlias www.example.com
+
+     <Directory /var/www/html/htmly/>
+          Options FollowSymlinks
+          AllowOverride All
+          Require all granted
+     </Directory>
+
+     ErrorLog ${APACHE_LOG_DIR}/error.log
+     CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    </VirtualHost>
+    ```
+12. Aktifkan HTMLy, *rewrite* modul, dan *restart* Apache.
+    ```
+    $ sudo a2ensite htmly.conf
+    $ sudo a2enmod rewrite
+    
+    $ sudo systemctl restart apache2.service
+    ```
+13. Buka server hostname melalui browser, akan muncul tampilan sebagai berikut:
+<img src="https://i.ibb.co/4VqMjJx/htmly-ubuntu-install.png" alt="htmly-ubuntu-install" border="0"></img>
 
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
@@ -260,9 +235,7 @@ Jika dibandingkan dengan CMS sejenisnya seperti **Microweber**, CMS ini memiliki
 # Referensi
 [`^ kembali ke atas ^`](#)
 
-1. [About PrestaShop](https://www.prestashop.com/) - PrestaShop
-2. [How to Log Into a VPS with PuTTY on Windows](https://www.digitalocean.com/community/tutorials/how-to-log-into-a-vps-with-putty-windows-users) - DigitalOcean
-3. [How to Install PrestaShop on Ubuntu 16.04](http://idroot.net/linux/install-prestashop-ubuntu-16-04/) - idroot
-4. [One Click Install PrestaShop](https://www.prestashop.com/blog/en/how-to-install-prestashop/) - PrestaShop
-5. [PrestaShop Review](http://whichshoppingcart.com/prestashop.html) - whishshoppingcart
+1. [Install HTMLy CMS On Ubuntu 16.04 / 18.04 LTS With Apache2, PHP 7.2 Support](https://websiteforstudents.com/install-htmly-cms-on-ubuntu-16-04-18-04-lts-with-apache2-php-7-2-support/) - websiteforstudents
+2. [HTMLy](https://github.com/danpros.htmly) - HTMLy
+
 
