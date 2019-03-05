@@ -16,10 +16,13 @@
 
 #### Kebutuhan Sistem :
 - Unix, Linux atau Windows.
-- Apache Web server 1.3+.
-- PHP 5.2+.
-- MySQL 5.0+.
-- RAM minimal 64 Mb+
+- uWSGI (~200mb)
+- Channels worker (~85mb)
+- Daphne (~60mb)
+- Circus (~25mb)
+- 5x RQ workers (~75mb each == 375mb)
+- RQ scheduler (~75mb)
+- Database sesuai dengan kebutuhan pengguna (100K content -> aprox. 230MB)
 
 #### Proses Instalasi :
 1. Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
