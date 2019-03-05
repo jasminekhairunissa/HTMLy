@@ -199,33 +199,33 @@ Cara kedua adalah dengan menggunakan layanan yang tersedia pada *web-hosting pro
 [`^ kembali ke atas ^`](#)
 
 Cara pemakaian **CMS Prestashop** ini sangat mudah, karena aplikasi ini telah menyediakan *interface* yang mudah dimengerti. Berikut untuk lebih jelasnya :
-1. Sebelum menggunakan prestashop, kita perlu login pada halaman admin toko kita.
+1. Ini merupakan tampilan awal saat kita membuka Socialhome.
 
-    ![login](https://4.bp.blogspot.com/-rmIdzrb4t4E/WOGbktO4p8I/AAAAAAAAGlc/z1NraShhrpUt-4Z0MVfXofZ5IV9hR_XbwCLcB/s1600/presta1.png)
+    <h1 align="center"><img src="https://i.ibb.co/kBbBf83/halamanawal.png" alt="halamanawal" border="0"></h1>
 
-2. Setelah login, kita akan masuk ke halaman *Dashboard*. Disini kita dapat melihat laporan penjualan website kita baik harian, mingguan, bulanan, bahkan tahunan.
 
-    ![mainpage](https://3.bp.blogspot.com/-AjB_6mJZCxc/WOGbk3XPniI/AAAAAAAAGlg/NGZ_vOSF1s4jvw9Yx9jh7odGt8B4qHSuwCLcB/s1600/presta2.png)
+2. Pertama-tama kita Sign in terlebih dahulu, 
 
-3. Pada bagian samping kiri, terdapat berbagai menu yang dapat kita gunakan. Menu **Order** berguna untuk mengetahui informasi lebih detail tentang penjualan pada website kita. Disini kita dapat mencetak *invoices, credit slips, delivery slips*, dan lain-lain.
+   <h1 align="center"><img src="https://i.ibb.co/sVScKpf/signin.png" alt="signin" border="0"></h1>
 
-    ![order](https://1.bp.blogspot.com/-0-MhQjYMGvQ/WOGbkmpYSXI/AAAAAAAAGlY/JSwla_Py4ckrxc839Im9JKtyJjsmye_hQCLcB/s1600/presta3.png)
+3. Setelah Sign in, ada banyak bisa kita lakukan, tentunya  kita bisa meng-create suatu post
+    <h1 align="center"><img src="https://i.ibb.co/zhHhTnp/Create.png" alt="Create" border="0"></h1>
+    
+4. Kita juga dapat melihat profil kita sendiri, dan pada profil ini, akan ditampilkan juga postingan tadi,
+    <h1 align="center"><img src="https://i.ibb.co/kxqLG4R/profilsetelahcreate.png" alt="profilsetelahcreate" border="0"></h1>
 
-4. Menu **Catalog** berguna untuk mengetahui informasi lebih detail tentang barang apa saja yang dijual pada website kita, kategori apa saja yang ada, mengawasi stok barang yang tersisa, merek apa saja yang ada, melihat daftar diskon, dan lain-lain.
+5. Juga terdapat fitur search, dimana kita dapan mencari akun-akun milik orang lain yang mungkin akan kita ikuti, atau kita tambahkan sebagai orang yang diikuti
 
-    ![catalog](https://4.bp.blogspot.com/-PQTBdZzcMBY/WOGblDw9tYI/AAAAAAAAGlk/GDC7cEzfWmo9LZ8bqcqwnv7iilAYlXNhwCLcB/s1600/presta4.png)
+     <h1 align="center"><img src="https://i.ibb.co/8mFLTH2/search.png" alt="search" border="0"></h1>
 
-5. Menu **Customers** berguna untuk melihat informasi lebih detail tentang daftar pelanggan kita dan alamatnya.
+6. Kemudian, kita juga dapat mengklik menu setting, dan salah satunya kita bisa membuka Account. pada Account ini salah satu yang dapat kita lakukan adalah mengatur halaman apa yang kita inginkan muncul pada saat pertama kali masuk.
 
-    ![customer](https://2.bp.blogspot.com/-Mtss0c3rblo/WOGblcDU_bI/AAAAAAAAGlo/u1Hv6LWzwtAEuk9_NPQHnedI6PnotkEMwCLcB/s1600/presta5.png)
+<h1 align="center"><img src="https://i.ibb.co/vYhn5sQ/account.png" alt="account" border="0"></h1>
+        
+7. Terdapat juga tab bernama Streams, disini terdapat pilihan content apa yang ingin kita lihat, mislnya content public atau local, seperti dibawah ini,
 
-6. Menu **Customer Service** berguna untuk mengatur hubungan dengan pelanggan, seperti menerima keluhan, mengirim pesan kepada pelanggan, pengembalian barang, dan lain-lain.
-
-    ![cs](https://3.bp.blogspot.com/-ZlT_WQ0bpyk/WOGblYW-yPI/AAAAAAAAGls/gcZb8k36rEUn8dDFnGXl35R_Uhy_lNMeACLcB/s1600/presta6.png)
-
-7. Menu **Stat** berguna untuk melihat informasi lebih detail dari website kita, seperti jumlah pengunjung setiap harinya, lokasi pelanggan terbanyak, barang apa yang populer, dan lain-lain.
-
-    ![stat](https://3.bp.blogspot.com/-kvZ9MMH6Fxc/WOGblsk5jpI/AAAAAAAAGlw/p8LhO5LIvMU4WnDEF5NKg7--tKy8mWa-wCLcB/s1600/presta7.png)
+    <h1 align="center"><img src="https://i.ibb.co/k8Svdhr/streams-local.png" alt="streams-local" border="0"></h1>
+    <h1 align="center"><img src="https://i.ibb.co/G5TBBVB/streams-public.png" alt="streams-public" border="0"></h1>
 
 8. Selain menu-menu yang berhubungan dengan penjualan, **Prestashop** juga menyediakan menu untuk meningkatkan performa website kita seperti menu untuk menginstal modul atau plugin, menu untuk memperindah tampilan website, menu untuk mengatur pengiriman dan pembayaran barang, bahkan menu lokalisasi untuk meningkatkan layanan pada region tertentu.
 
