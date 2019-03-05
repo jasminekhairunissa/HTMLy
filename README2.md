@@ -213,6 +213,11 @@ Cara pemakaian **CMS Prestashop** ini sangat mudah, karena aplikasi ini telah me
     
 4. Kita juga dapat melihat profil kita sendiri, dan pada profil ini, akan ditampilkan juga postingan tadi,
     <h1 align="center"><img src="https://i.ibb.co/kxqLG4R/profilsetelahcreate.png" alt="profilsetelahcreate" border="0"></h1>
+   Pada menu profil kita bisa juga merubah profile picture ataupun merubah username kita ,
+   <h1 align="center"><img src="https://i.ibb.co/sHWNZ3K/changepicture.png" alt="changepicture" border="0"></h1>
+   <h1 align="center"><img src="https://i.ibb.co/LS41M82/changebb.png" alt="changebb" border="0"></h1>
+   <h1 align="center"><img src="https://i.ibb.co/FHqzj3V/dahgnti.png" alt="dahgnti" border="0"></h1>
+   <h1 align="center"><img src="https://i.ibb.co/7r7ZdQL/gantiprofil.png" alt="gantiprofil" border="0"></h1>
 
 5. Juga terdapat fitur search, dimana kita dapan mencari akun-akun milik orang lain yang mungkin akan kita ikuti, atau kita tambahkan sebagai orang yang diikuti
 
@@ -226,16 +231,6 @@ Cara pemakaian **CMS Prestashop** ini sangat mudah, karena aplikasi ini telah me
 
     <h1 align="center"><img src="https://i.ibb.co/k8Svdhr/streams-local.png" alt="streams-local" border="0"></h1>
     <h1 align="center"><img src="https://i.ibb.co/G5TBBVB/streams-public.png" alt="streams-public" border="0"></h1>
-
-8. Selain menu-menu yang berhubungan dengan penjualan, **Prestashop** juga menyediakan menu untuk meningkatkan performa website kita seperti menu untuk menginstal modul atau plugin, menu untuk memperindah tampilan website, menu untuk mengatur pengiriman dan pembayaran barang, bahkan menu lokalisasi untuk meningkatkan layanan pada region tertentu.
-
-    ![improve](https://3.bp.blogspot.com/-d_DufFiAblk/WOGbls1KYxI/AAAAAAAAGl0/AsyvLt1zp1IP1BG1PbDaG91PJKV-xDkhACLcB/s1600/presta8.png)
-
-9. Selain itu, terdapat juga menu untuk mempermudah konfigurasi website kita baik itu konfigurasi umum maupun konfigurasi lanjut.
-
-    ![configure](https://4.bp.blogspot.com/-58ke7QyDUwQ/WOGbmCZvHFI/AAAAAAAAGl4/LuQRv6uYmywWjbzmJy82UwNu5qCg8fp1gCLcB/s1600/presta9.png)
-
-
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
