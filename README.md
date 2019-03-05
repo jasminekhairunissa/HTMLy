@@ -1,4 +1,4 @@
-<h1 align="center"><img src="<a href="https://imgbb.com/"><img src="https://i.ibb.co/hK251gp/Socialhome-dark-600.png" alt="Socialhome-dark-600" border="0"></a></h1>
+<h1 align="center"><img src="https://i.ibb.co/hK251gp/Socialhome-dark-600.png" alt="Socialhome-dark-600" border="0"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
