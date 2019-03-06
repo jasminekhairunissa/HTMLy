@@ -153,13 +153,12 @@ Cara pemakaian **HTMLy** ini sangat mudah, karena aplikasi ini telah menyediakan
    <h1 align="center"><img src="https://i.ibb.co/Fmq1BdF/heuehu.png" alt="heuehu" border="0"></h1>
 
 3. Terdapat beberapa menu di tab bagian atas, yang pertama yaitu menu Admin, pada saat diklik akan ada tampilan berisi post yang pernah kita publish, kita bisa mengedit ataupun menghapusnya
-   kita juga bisa melihat statistiknya
     <h1 align="center"><img src="https://i.ibb.co/pQzzynX/static.png" alt="static" border="0"></h1>
     
 4. Terdapat pula menu Posts yang berisi list postingan yang ada, dapat diedit ataupun dihapus
     <h1 align="center"><img src="https://i.ibb.co/568trf7/posst.png" alt="posst" border="0"></h1>
    
-5. Kemudian terdapat pula menu Add Content, disinilah kita bisa menambhkan konten yang akan kita post, bisa berbentuk regular, atau yang memiliki fitur gambar, video, dan sebagainya
+5. Kemudian terdapat pula menu Add Content, disinilah kita bisa menambahkan konten yang akan kita post, bisa berbentuk regular, atau yang memiliki fitur gambar, video, dan sebagainya
 
      <h1 align="center"><img src="https://i.ibb.co/8x3gWSd/add-content.png" alt="add-content" border="0"></h1>
 
