@@ -1,7 +1,7 @@
 <h1 align="center"><img src="https://i.ibb.co/WWSp7ZQ/logo-big.png" alt="logo-big" border="0"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
+:---:|:---:|:---:|:---:|:---:|:---:
 
 
 
@@ -114,32 +114,12 @@
 
 
 
-# Maintenance
-[`^ kembali ke atas ^`](#)
-
-Ketika kita ingin memodifikasi toko yang sudah terinstall, kita mungkin tidak ingin ada orang lain yang membuka aplikasi kita. Pada saat seperti itu, kita dapat mengkonfigurasi aplikasi kita untuk masuk ke dalam *maintenance mode*. Berikut ini adalah langkah-langkah yang harus kita lakukan :
-1. Login ke dalam admin toko kita.
-2. Klik submenu **General** pada menu **Shop Parameters**.
-
-    ![shop](https://2.bp.blogspot.com/-jD8tqsXFEZU/WNgF9oM9htI/AAAAAAAAGkE/y5imPsRHlC8WE4FWW_4Ypt7B5qldQwGOACLcB/s1600/Screenshot_4.jpg)
-
-3. pilih tab **Maintenance**.
-
-    ![maintenance](https://2.bp.blogspot.com/-nP-fEgmv0Nk/WNgF9liISII/AAAAAAAAGkM/79LNJAoksb0J5dhVSqpo2Q4mZf3G4z-YwCLcB/s1600/Screenshot_5.jpg)
-
-4. Klik tombol `on` atau `off` untuk menjalankan atau mematikan *maintenance mode*.
-5. Jika kita ingin agar teman kita dapat membuka aplikasi saat sedang dalam *maintenance mode*, masukkan **IP Adress** miliknya ke dalam field **Maintenance IP**.
-6. Tuliskan pesan yang ingin kita sampaikan ketika ada orang yang membuka aplikasi kita saat sedang maintenance ke dalam field **Custom Maintenance Text**
-7. Klik tombol **Save** untuk menyimpan perubahan.
-
-
-
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
 
 Ada beberapa cara lain untuk menginstall **HTMLy**:
 
-###Menggunakan Web Installer
+#### Menggunakan Web Installer
 
 1. Unduh <a href="https://github.com/danpros/htmly/releases/tag/v2.7.4">installer.php</a>.
 
@@ -147,7 +127,7 @@ Ada beberapa cara lain untuk menginstall **HTMLy**:
 
 3. Instalasi Selesai. Kunjungi web melalui **localhost/installer.php** atau **www.example.com/installer.php**
 
-###Menggunakan Zip Archive
+#### Menggunakan Zip Archive
 
 1. Unduh folder zip <a href = "https://github.com/danpros/htmly/releases/tag/v2.7.4">terbaru</a>.
 
