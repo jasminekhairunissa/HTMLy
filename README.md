@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://i.ibb.co/WWSp7ZQ/logo-big.png" alt="logo-big" border="0"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 
@@ -112,23 +112,6 @@
 13. Buka server hostname melalui browser, akan muncul tampilan sebagai berikut:
 <img src="https://i.ibb.co/4VqMjJx/htmly-ubuntu-install.png" alt="htmly-ubuntu-install" border="0"></img>
 
-# Konfigurasi
-[`^ kembali ke atas ^`](#)
-
-- Untuk menentukan konfigurasi umum, kuota upload, dan pemberitahuan, kita dapat membuka submenu **Administration** pada menu **Advanced Parameters** dan mengisi field sesuai kebutuhan. 
-    
-    ![adv](https://1.bp.blogspot.com/-FVf16Vgl39w/WNgF9uD_R1I/AAAAAAAAGkI/SMY8oR4ZpDwNJAP4te0Ml0xCghuEYwQfQCLcB/s1600/Screenshot_6.jpg)
-
-    ![setting](https://1.bp.blogspot.com/-pPGnvOtpH6k/WNgF-bV6TcI/AAAAAAAAGkQ/i4X-qAe2ohcLT18UDAaA5tYDZGrri0nvQCLcB/s1600/ss.png)
-
-- Untuk melengkapi aplikasi, kita dapat menambahkan fitur atau modul-modul tertentu pada menu `Modules`.
-
-    ![modul](https://4.bp.blogspot.com/-6dRdIL2WQGw/WNfs8Ul0KnI/AAAAAAAAGjw/_TmOk2h3mIgRc7Z0Uw1kYLx7bIDaZ-Z4wCLcB/s1600/Screenshot_2.jpg)
-
-- Untuk memperindah aplikasi, kita dapat mengganti tema aplikasi pada menu `Design`.
-
-    ![design](https://4.bp.blogspot.com/-HSXimyvqUVc/WNfs9sGUKnI/AAAAAAAAGj0/l3ZyZX2biuUa05VhnVdwrdFcCxxpGWv0gCLcB/s1600/Screenshot_3.jpg)
-
 
 
 # Maintenance
@@ -154,19 +137,24 @@ Ketika kita ingin memodifikasi toko yang sudah terinstall, kita mungkin tidak in
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
 
-Jika kalian masih merasa kesulitan dalam meng-install **Prestashop**, terdapat dua cara alternatif yang lebih mudah. Cara pertama adalah dengan menggunakan `script shell` yang otomatis akan menjalankan semua perintah instalasi pada terminal. Contoh `script shell` yang dapat kita gunakan adalah [setup.sh](../master/setup.sh)
+Ada beberapa cara lain untuk menginstall **HTMLy**:
 
-Cara kedua adalah dengan menggunakan layanan yang tersedia pada *web-hosting provider*. Dengan layanan tersebut kita hanya perlu satu kali klik untuk meng-install **Prestashop**. Berikut langkah-lankah untuk melakukannya :
-1. kita perlu mengunjungi *web-hosting provider* yang menyediakan *script* instalasi **prestashop** otomatis, seperti [SimpleScripts](http://www.simplescripts.com/script_details/install:PrestaShop), [Installatron](http://installatron.com/prestashop), atau [Softaculous](http://www.softaculous.com/apps/ecommerce/PrestaShop).
-2. Sebagai contoh, kita akan menggunakan layanan dari [Installatron](http://installatron.com/prestashop). Kunjungi link tersebut lalu klik tombol **Install this Application**.
+###Menggunakan Web Installer
 
-    ![Installatron](https://4.bp.blogspot.com/-PGjmovGOoOc/WNgQDHbE1RI/AAAAAAAAGk0/90dTTmH15cY6WSWqr8UU8BPETQs4KyxnACLcB/s1600/Screenshot_8.jpg)
+1. Unduh <a href="https://github.com/danpros/htmly/releases/tag/v2.7.4">installer.php</a>.
 
-3. Isi semua informasi yang dibutuhkan, lalu klik tombol **Install**.
+2. Pindahkan file **installer.php** ke folder root web (misal: /var/www/htmly)
 
-    ![form](https://4.bp.blogspot.com/-5UwbsHAaBe0/WNgQDDjFdhI/AAAAAAAAGk4/coOLiqqP2DcVxq-hHwFa9cVW3P_t6p1tQCLcB/s1600/ss2.png)
+3. Instalasi Selesai. Kunjungi web melalui **localhost/installer.php** atau **www.example.com/installer.php**
 
-4. Tunggu hingga proses instalasi selesai.
+###Menggunakan Zip Archive
+
+1. Unduh folder zip <a href = "https://github.com/danpros/htmly/releases/tag/v2.7.4">terbaru</a>.
+
+2. Ekstrak zip ke folder server.
+
+3. Instalasi Selesai. Kunjungi web melalui **localhost/installer.php** atau **www.example.com/installer.php**
+
 
 
 
@@ -240,6 +228,7 @@ Jika dibandingkan dengan CMS sejenisnya seperti **Microweber**, CMS ini memiliki
 [`^ kembali ke atas ^`](#)
 
 1. [Install HTMLy CMS On Ubuntu 16.04 / 18.04 LTS With Apache2, PHP 7.2 Support](https://websiteforstudents.com/install-htmly-cms-on-ubuntu-16-04-18-04-lts-with-apache2-php-7-2-support/) - websiteforstudents
-2. [HTMLy](https://github.com/danpros.htmly) - HTMLy
+2. [HTMLy](https://github.com/danpros.htmly) - github
+3. [Installations](https://docs.htmly.com/basics/installations) - htmly
 
 
