@@ -221,20 +221,12 @@ Cara pemakaian **HTMLy** ini sangat mudah, karena aplikasi ini telah menyediakan
 - Memiliki desain yang *responsive*, sehingga dapat dibuka menggunakan device apapun.
 - Sangat mudah diimplementasikan di berbagai OS.
 - Sebagai flat-file atau flat-CMS. HTMLy dirancang untuk berjalan dengan lancar meskipun menggunakan spesifikasi server minimal. Dengan RAM 512MB atau bahkan kurang, HTMLy masih dapat menangani lebih dari 10 ribu posting tanpa masalah.
-- Banyak pengguna yang berkontribusi pada *discussion boards* dan sejenisnya, sehingga masalah yang dihadapi pengguna dapat cepat terselesaikan.
+- HTMLy adalah Databaseless Blogging Platform atau Flat-File, Kita tidak perlu menggunakan VPS untuk menjalankan HTMLy
 - Tampilan blog menarik dan bisa kita ganti sesuai dengan yang kita inginkan.
 
 Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki **HTMLy** antara lain :
 - Tampilan dashboard kurang menarik dan terlihat agak membingungkan saat pertama kali menggunakannya, kurang User Friendly.
 - Untuk implementasi di Linux ada sedikit masalah dibagian Admin sedangkan di windows tidak ada masalah.
-
-Jika dibandingkan dengan CMS sejenisnya seperti **Microweber**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini :
-- **Microweber** menyediakan proses design yang fleksibel dengan fitur *Drag and Drop* tanpa batasan, sehingga pengguna bebas mengkreasikan tampilan websitenya. Sedangkan **Prestashop** hanya menyediakan fitur design berupa penggantian template dan logo, adapun template yang tersedia tidak gratis.
-- Modul atau plugin yang tersedia pada **Prestashop** jauh lebih banyak dibandingkan pada **Microweber**.
-- **Prestashop** memiliki pengguna yang jauh lebih banyak daripada **Microweber** yang aktif pada forum-forum diskusi untuk membantu pengguna pemula.
-- **Microweber** lebih ringan daripada **Prestashop** karena modulnya yang sedikit.
-- Proses instalasi **Prestashop** lebih mudah karena berbasis PHP saja, sedangkan **Microweber** menggunakan framework laravel sehingga proses instalasi lebih sulit, terutama dalam hal *dependency*.
-
 
 
 # Referensi
