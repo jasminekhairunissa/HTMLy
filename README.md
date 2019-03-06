@@ -182,18 +182,51 @@ Cara pemakaian **HTMLy** ini sangat mudah, karena aplikasi ini telah menyediakan
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
-**Prestashop** ditulis dalam bahasa pemrograman `PHP` yang support untuk penggunaan MySQL. Sebagai salah satu CMS yang paling banyak digunakan di dunia, aplikasi ini menawarkan berbagai kelebihan, diantaranya :
-- Aplikasi memiliki panel administrasinya mudah digunakan dan fleksibel, sehingga dapat disesuaikan dengan kebutuhan.
-- Mendukung berbagai layanan pembayaran utama, seperti `PayPal`, `VISA`, `MasterCard`, dan `Maestro`.
-- Diterjemahkan dalam banyak bahasa, termasuk Bahasa Indonesia.
-- Memiliki desain yang *responsive*, sehingga dapat dibuka menggunakan *device* apapun.
-- Memiliki lebih dari tiga ratus fitur untuk memudahkan pengguna.
+**HTMLy** adalah sebuah Content Management System (CMS) berbentuk platform blogging  ditulis dalam bahasa pemrograman 'PHP', mengutamakan kecepatan dan kesederhanaan. Sebagai salah satu CMS yang ringan dan mudah digunakan, aplikasi ini menawarkan berbagai kelebihan, diantaranya :
+- Memiliki banyak fitur untuk memudahkan pengguna.
+  Fitur-fitur tersebut diantaranya :
+        - Admin Panel
+        - Markdown editor with live preview and image upload
+        - Categorization with category and tags (multiple tagging support)
+        - Static Pages (e.g. Contact Page, About Page)
+        - Meta canonical, description, and rich snippets for SEO
+        - Pagination
+        - Author Page
+        - Multi author support
+        - Social Links
+        - Disqus Comments (optional)
+        - Facebook Comments (optional)
+        - Google Analytics
+        - Built-in Search
+        - Related Posts
+        - Per Post Navigation (previous and next post)
+        - Body class for easy theming
+        - Breadcrumb
+        - Archive page (by year, year-month, or year-month-day)
+        - JSON API
+        - OPML
+        - RSS Feed
+        - RSS 2.0 Importer (basic)
+        - Sitemap.xml
+        - Archive and Tag Cloud Widget
+        - SEO Friendly URLs
+        - Teaser thumbnail for images and Youtube videos
+        - Responsive Design
+        - User Roles
+        - Online Backup
+        - File Caching
+        - Auto Update
+        - Post Draft
+- HTMLy menggunakan algoritma unik untuk menemukan atau membuat daftar konten apa pun berdasarkan tanggal, jenis, kategori, tag, atau penulis, dan kinerjanya akan tetap cepat bahkan jika kita memiliki ribuan posting dan ratusan tag.
+- Memiliki desain yang *responsive*, sehingga dapat dibuka menggunakan device apapun.
+- Sangat mudah diimplementasikan di berbagai OS.
+- Sebagai flat-file atau flat-CMS. HTMLy dirancang untuk berjalan dengan lancar meskipun menggunakan spesifikasi server minimal. Dengan RAM 512MB atau bahkan kurang, HTMLy masih dapat menangani lebih dari 10 ribu posting tanpa masalah.
 - Banyak pengguna yang berkontribusi pada *discussion boards* dan sejenisnya, sehingga masalah yang dihadapi pengguna dapat cepat terselesaikan.
+- Tampilan blog menarik dan bisa kita ganti sesuai dengan yang kita inginkan.
 
-Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki **Prestashop** antara lain :
-- Penggunaan fitur atau modul yang lengkap menyebakan proses loading dari aplikasi ini menjadi sangat lambat
-- Penggunaan *resource* memory aplikasi ini cukup besar, terutama ketika menggunakan fitur atau modul yang lengkap.
-- Sebagian besar modul dan tema yang tersedia tidak gratis.
+Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki **HTMLy** antara lain :
+- Tampilan dashboard kurang menarik dan terlihat agak membingungkan saat pertama kali menggunakannya, kurang User Friendly.
+- Untuk implementasi di Linux ada sedikit masalah dibagian Admin sedangkan di windows tidak ada masalah.
 
 Jika dibandingkan dengan CMS sejenisnya seperti **Microweber**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini :
 - **Microweber** menyediakan proses design yang fleksibel dengan fitur *Drag and Drop* tanpa batasan, sehingga pengguna bebas mengkreasikan tampilan websitenya. Sedangkan **Prestashop** hanya menyediakan fitur design berupa penggantian template dan logo, adapun template yang tersedia tidak gratis.
