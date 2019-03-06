@@ -221,11 +221,14 @@ Cara pemakaian **HTMLy** ini sangat mudah, karena aplikasi ini telah menyediakan
 - Sangat mudah diimplementasikan di berbagai OS.
 - Sebagai flat-file atau flat-CMS. HTMLy dirancang untuk berjalan dengan lancar meskipun menggunakan spesifikasi server minimal. Dengan RAM 512MB atau bahkan kurang, HTMLy masih dapat menangani lebih dari 10 ribu posting tanpa masalah.
 - HTMLy adalah Databaseless Blogging Platform atau Flat-File, Kita tidak perlu menggunakan VPS untuk menjalankan HTMLy
-- Tampilan blog menarik dan bisa kita ganti sesuai dengan yang kita inginkan.
+- Tampilan blog bisa kita ganti sesuai dengan yang kita inginkan.
 
 Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki **HTMLy** antara lain :
 - Tampilan dashboard kurang menarik dan terlihat agak membingungkan saat pertama kali menggunakannya, kurang User Friendly.
 - Untuk implementasi di Linux ada sedikit masalah dibagian Admin sedangkan di windows tidak ada masalah.
+- Tampilan kurang menarik dan kurang familiar.
+
+
 
 
 # Referensi
