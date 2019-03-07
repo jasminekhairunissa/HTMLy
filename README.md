@@ -195,6 +195,10 @@ Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki 
 - Untuk implementasi di Linux ada sedikit masalah dibagian Admin sedangkan di windows tidak ada masalah.
 - Tampilan kurang menarik dan kurang familiar.
 
+Jika dibandingkan dengan CMS sejenisnya seperti **Bludit**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini:
+- **Bludit** dibangun menggunakan framework PHP Symfony dan Vue.js sedangkan pada **HTMLy** dibangun tidak menggunakan framework.
+- Pada **Bludit** bisa membuat username baru. Sedangkan pada **HTMLy** supaya dapat membuat username baru, harus mengulang dari instalasi package HTMLy
+
 
 
 
